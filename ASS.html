@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="results.html" method="get" enctype="multipart/form-data">
+        <p><h3> NO.2 </h3></p>
+        <div>
+            <label for="name"> Name</label>
+            <input type="text"  name="name" id="name" required>
+        </div><br>
+        
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>  
+        </div><br>
+        <div>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date" id="date">
+        </div><br>
+        <div>
+            <label>
+                Password
+                <input type="password" Name="password" required>
+            </label>
+        </div><br>
+        
+            <br>
+        
+        <div>
+            <b>GENDER</b>  
+          </div><br>
+          
+          <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male">
+          </div>
+      <div>
+      <label for="female">female</label>
+      <input type="radio" name="gender" id="female" value="female">
+      </div><br>
+      <label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone"  ><br>
+      <div>
+        <label for="bio">Please enter your Message</label>
+        <textarea id="bio" name="bio"></textarea>
+    </div><br>
+
+       
+        <p>Choose Year</p>
+        <Select name="Year">
+        <option value="year">Year1.</option>
+        <option value="year">Year2.</option>
+        <option value="year"> Year3.</option>
+        </Select><br><br><br>
+        <div>
+            <span><button type="submit" class="button">Submit</button></span>
+         </div>
+    </form>
+</body>
+</html>
